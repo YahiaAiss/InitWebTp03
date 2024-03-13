@@ -7,17 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    <form id="placeOrderForm" action="operation.html" target="right-screen">
+    <form id="placeOrderForm" action="orderaddedsucsessfuly.html" target="right-screen">
         <label for="orderId">Order ID:</label>
         <input type="text" id="orderId" required>
         <label for="orderDate">Date:</label>
         <input type="date" id="orderDate">
         <label for="orderQuantity">Quantity:</label>
         <input type="number" id="orderQuantity" min="1">
-        <label for="paymentMethod">Payment Method:</label>
-        <input type="checkbox" id="cashPayment" name="paymentMethod" value="cash">
+        <label>Payment Method:</label>
+        <input type="radio" id="cashPayment" name="paymentMethod" value="cash">
         <label for="cashPayment">Cash</label>
-        <input type="checkbox" id="transferPayment" name="paymentMethod" value="transfer">
+        <input type="radio" id="transferPayment" name="paymentMethod" value="transfer">
         <label for="transferPayment">Transfer</label>
         <label for="bankSelect">Bank:</label>
         <select id="bankSelect">
