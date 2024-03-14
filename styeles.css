@@ -5,6 +5,13 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Quicksand, sans-serif;
+    min-height: 80vh;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family: Quicksand, sans-serif;
     align-items:center;
 }
 
